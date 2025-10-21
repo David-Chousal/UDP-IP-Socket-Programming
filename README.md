@@ -1,4 +1,4 @@
-# Lab 4: UDP File Transfer
+# UDP File Transfer
 
 **Author:** David Chousal  
 **Date:** 10/21/2025  
