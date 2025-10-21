@@ -101,12 +101,12 @@ After the server is running, start the client in a separate terminal.
 $ gcc -o udpserver udpsTemplate.c
 $ ./udpserver 8080 received_file.txt
 Waiting for packets to come.....
-Packet{ header: { len: 10 }, data: "Hello Worl" }
-	 Server sending Acknowled 
+Packet{ header: { len: 10 }, data: "Hello World" }
+	 Server sending Acknowledged 
 Packet{ header: { len: 3 }, data: "d!\n" }
-	 Server sending Acknowled 
+	 Server sending Acknowledged 
 Packet{ header: { len: 0 }, data: "" }
-	 Server sending Acknowled 
+	 Server sending Acknowledged 
 ```
 
 ### Terminal 2 (Client):
